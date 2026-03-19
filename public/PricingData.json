@@ -24,6 +24,7 @@
     "currency": "$",
     "duration": "month",
     "description": "Advanced features for consistent gym-goers.",
+    "popular" : true,
     "features": [
       "All Starter Pack Features",
       "Unlimited Group Fitness Classes (Yoga, Zumba, HIIT)",
