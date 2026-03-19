@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Pack",
+    "price": 30,
+    "currency": "$",
+    "duration": "month",
+    "description": "Perfect for beginners starting their fitness journey.",
+    "features": [
+      "Access to Gym Floor & Cardio Zone",
+      "Standard Weightlifting Equipment",
+      "Locker Room & Shower Access",
+      "1 Free Fitness Orientation Session",
+      "Mobile App for Workout Tracking",
+      "Complimentary High-Speed Wi-Fi",
+      "1 Guest Pass per Month"
+    ],
+    "isPopular": false
+  },
+  {
+    "id": 2,
+    "name": "Elite Member",
+    "price": 60,
+    "currency": "$",
+    "duration": "month",
+    "description": "Advanced features for consistent gym-goers.",
+    "features": [
+      "All Starter Pack Features",
+      "Unlimited Group Fitness Classes (Yoga, Zumba, HIIT)",
+      "Access to Sauna & Steam Room",
+      "Monthly Body Composition Analysis (InBody Scan)",
+      "Personalized Workout Plan Routine",
+      "Unlimited Hydration & Juice Bar Access",
+      "Towel Service Included",
+      "5 Guest Passes per Month"
+    ],
+    "isPopular": true
+  },
+  {
+    "id": 3,
+    "name": "Pro Athlete",
+    "price": 95,
+    "currency": "$",
+    "duration": "month",
+    "description": "Full-stack fitness experience with professional coaching.",
+    "features": [
+      "All Elite Member Features",
+      "4 Sessions with a Personal Trainer (Monthly)",
+      "Customized Diet & Nutrition Coaching",
+      "Olympic Lifting & CrossFit Zone Access",
+      "Swimming Pool & Recovery Spa Access",
+      "24/7 VIP Gym Access (Biometric Entry)",
+      "Complimentary Gym Gear Laundry Service",
+      "Reserved VIP Parking Spot",
+      "Unlimited Guest Passes"
+    ],
+    "isPopular": false
+  }
+]
