@@ -2,6 +2,7 @@ import { useState, Suspense } from 'react'
 import './App.css'
 import Navbar from './components/DaisyNav/Navbar/Navbar'
 import PricingOptions from './components/DaisyNav/PricingOptions/PricingOptions'
+import ResultChart from './components/DaisyNav/ResultChart/ResultChart';
 
 
 const pricingPromise = fetch('PricingData.json')
@@ -20,6 +21,8 @@ function App() {
           <PricingOptions pricingPromise={pricingPromise} />
         </Suspense>
       </main>
+
+      <ResultChart></ResultChart>
     </>
   )
 }
