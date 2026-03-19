@@ -2,7 +2,7 @@ import React from 'react';
 
 const DaisyPricing = ({pricing}) => {
     
-    const {name, price, features, isPopular} = pricing; 
+    const {name, price, features, popular} = pricing; 
 
     return (
         
@@ -10,7 +10,7 @@ const DaisyPricing = ({pricing}) => {
             
             <div className="card w-96 bg-base-100 shadow-sm border border-gray-100 flex flex-col h-full">
                 <div className="card-body flex flex-col flex-1">
-                    {isPopular && <span className="badge badge-xs badge-warning mb-2">Most Popular</span>}
+                    {popular && <span className="badge badge-xs badge-warning mb-2">Most Popular</span>}
                     
                     <div className="flex justify-between items-center">
                         <h2 className="text-3xl font-bold">{name}</h2>
