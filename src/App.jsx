@@ -1,0 +1,25 @@
+import { useState } from 'react'
+
+import './App.css'
+import DaisyNav from './components/DaisyNav/DaisyNav'
+import Navbar from './components/DaisyNav/Navbar/Navbar'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+
+      <header>
+        <Navbar></Navbar>
+        
+        
+      </header>
+
+
+
+    </>
+  )
+}
+
+export default App
